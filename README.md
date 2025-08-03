@@ -68,8 +68,6 @@ After seeing the discussion about typeballs on Mastodon, Kris Slyka approached m
 
 # Extra thoughts
 
-[I put some typeballs on Printables!](https://www.printables.com/search/models?q=tag:typeball%20@settinger_263029) They are also available on Shapeways (links in the Printables descriptions) if you don't want to print them yourself.
-
 To affix the typeball to the typewriter, you will need a bent wire or a small clip [such as this one from Dave Hayden](https://www.printables.com/model/416841-selectric-ball-clip). Thank you Dave for encouraging me to pick up the Selectric project again!
 
 I had been testing on a not-fully-functional Selectric I, which I think was set to 12 characters per inch. Knowing characters per inch is important for joined/cursive scripts like Mongolian. It would really help if I knew how to change the writing direction, I know some Selectrics had an RTL/LTR switch...
