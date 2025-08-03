@@ -1,13 +1,10 @@
-# How to make your own Selectric Typeballs
+## 3D Printable Selectric-III 96-Character Typeface Elements
 
-## March 31, 2023
-
-![A 3D printed typeball for the IBM Selectric. The font is Comic Sans. There is ink on most of the letters.](img/typeball.jpg)
-![A sheet of lined paper in a typewriter with several lines of Cherokee text; the 3d printed typeball that made the text is visible in the lower left.](img/cherokee.jpg)
+![A CAD model for an IBM Selectric III Vogue-96 Typeface Element.](img/vogue96_openscad.jpg)
 
 # Update: August 3 2025: Leveraging LLMs to Support 96-Character Selectric III Typeface Elements
 
-I'm using AI models to rewrite the latest OpenSCAD CAD model from [Dave Hayden](https://selectricrescue.org/) to support 96-character Selectric III typeface elements. I've added the OpenSCAD file for Vogue-96, *Selectric_III_Element96_001.scad*. I don't have a resin printer, but I do have a Selectric-III, so if anyone's in or near Denver, CO and wants to help print and test with me, give me a holler. Feel free to take a look at and tinker the OpenSCAD file.
+I'm using AI models to rewrite the latest OpenSCAD CAD model from [Dave Hayden](https://selectricrescue.org/) to support 96-character Selectric III typeface elements. I've added the OpenSCAD file for Vogue-96, *Selectric_III_Element96_001.scad*. I don't have a resin printer, but I do have a Selectric-III, so if anyone's in or near Denver, CO and wants to help print and test with me, give me a holler. Feel free to take a look at and tinker the OpenSCAD file. Thanks to Dave Hayden at Austin Selectric Rescue, Sam Ettinger for the OG GitHub repo, and all others who have contributed to this project!
 
 # Update: July 7 2023: YOU PROBABLY SHOULDN'T PRINT THIS!
 
