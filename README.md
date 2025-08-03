@@ -8,7 +8,7 @@ I'm using AI models to rewrite the latest OpenSCAD CAD model from [Dave Hayden](
 
 Feel free to take a look at and tinker the OpenSCAD file. I've tried to comment as much as possible. I've added the [Ball Clips designed by Dave Hayden](https://www.printables.com/model/416841-selectric-ball-clip/files) to the repo, distributed under [Creative Commons (4.0 International License)](https://creativecommons.org/licenses/by/4.0/) for sake of everything being in a single place.
 
-Thanks to Dave Hayden at Austin Selectric Rescue, Sam Ettinger for the OG GitHub repo, and all others who have contributed to this project!
+Thanks to Dave Hayden at Austin Selectric Rescue, [Sam Ettinger for the OG GitHub repo](https://github.com/settinger/selectric_typeballs), and all others who have contributed to this project!
 
 The original README continues below.
 
