@@ -5,7 +5,7 @@
 // -------------------
 
 // Set to false for full character rendering (true = preview without letters)
-PREVIEW_LABEL = false;
+PREVIEW_LABEL = true;
 
 // The font name, as installed on your system
 TYPEBALL_FONT = "Vogue";
@@ -411,11 +411,25 @@ module Slot() {
       cube([SLOT_DEPTH + BOSS_INNER_RAD, SLOT_WIDTH, 40]);
 }
 
+// Partial‐length boss notch (drawn at three positions: base, +90°, –90°)
 module Notch() {
-  rotate([0,0,NOTCH_ANGLE])
-    translate([0,-NOTCH_WIDTH/2,TYPEBALL_TOP_ABOVE_CENTRE - BOSS_HEIGHT - EPSILON])
-      cube([NOTCH_DEPTH + BOSS_INNER_RAD, NOTCH_WIDTH, NOTCH_HEIGHT + EPSILON]);
+  // angles for the three narrow notches
+  angles = [ NOTCH_ANGLE, NOTCH_ANGLE + 90, NOTCH_ANGLE - 90 ];
+  for (a = angles) {
+    rotate([0, 0, a])
+      translate(
+        [ 0,
+         -NOTCH_WIDTH/2,
+          TYPEBALL_TOP_ABOVE_CENTRE - BOSS_HEIGHT - EPSILON
+        ]
+      )
+      cube([ NOTCH_DEPTH + BOSS_INNER_RAD,
+             NOTCH_WIDTH,
+             NOTCH_HEIGHT + EPSILON
+           ]);
+  }
 }
+
 
 module Ribs() {
   segment = 360 / RIBS;
