@@ -5,6 +5,10 @@
 ![A 3D printed typeball for the IBM Selectric. The font is Comic Sans. There is ink on most of the letters.](img/typeball.jpg)
 ![A sheet of lined paper in a typewriter with several lines of Cherokee text; the 3d printed typeball that made the text is visible in the lower left.](img/cherokee.jpg)
 
+# Update: August 3 2025: Leveraging LLMs to Support 96-Character Selectric III Typeface Elements
+
+I'm using AI models to rewrite the latest OpenSCAD CAD model from [Dave Hayden](https://selectricrescue.org/) to support 96-character Selectric III typeface elements. I've added the OpenSCAD file for Vogue-96, *Selectric_III_Element96_001.scad*. I don't have a resin printer, but I do have a Selectric-III, so if anyone's in or near Denver, CO and wants to help print and test with me, give me a holler. Feel free to take a look at and tinker the OpenSCAD file.
+
 # Update: July 7 2023: YOU PROBABLY SHOULDN'T PRINT THIS!
 
 Update, July 7 2023: [Dave Hayden](https://selectricrescue.org/) took the resin-printed typeball concept and [improved on it greatly](https://selectricrescue.org/balls/SelectricElement88.scad). I'm extremely grateful that he took on all the hard work of iteratively going through and dialing in the perfect values to make a functional ball, and I'm pleased to think I contributed in some way to his achievements.
