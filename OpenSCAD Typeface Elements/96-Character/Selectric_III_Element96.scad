@@ -5,7 +5,7 @@
 // -------------------
 
 // Set to false for full character rendering (true = preview without letters)
-PREVIEW_LABEL = true;
+PREVIEW_LABEL = false;
 
 // The font name, as installed on your system
 TYPEBALL_FONT = "Vogue";
@@ -187,7 +187,7 @@ EPSILON                   = 0.001;
 module Labels() {
   offset(r=0.12) {
     translate([-0.1,14,0])
-      text("1O", size=2, font=TYPEBALL_FONT, halign="center");
+      text("12", size=2, font=TYPEBALL_FONT, halign="center");
     translate([0,0.6,0])
       text(TYPEBALL_FONT, size=2, font=TYPEBALL_FONT, halign="center");
     translate([0,-2.5,0])                // shift down below the font name
