@@ -4,7 +4,7 @@
 
 # August 3 2025: Leveraging LLMs to Support 96-Character Selectric III Typeface Elements
 
-I'm using an AI model to rewrite the latest OpenSCAD CAD model from [Dave Hayden](https://selectricrescue.org/) to support 96-character Selectric-III typeface elements. I've added the OpenSCAD file for Vogue-96, *Selectric_III_Element96.scad*. I don't have a resin printer, but I do have a Selectric-III, so if anyone's in or near Denver, CO and wants to help print and test with me, give me a holler. 
+I'm using an AI model to rewrite the latest OpenSCAD CAD model from [Dave Hayden](https://selectricrescue.org/) to support 96-character Selectric-III typeface elements. I've added the OpenSCAD file for Vogue-96, *Selectric_III_Element96.scad*. I don't have a resin printer, so I haven't been able to do any testing, but the variables for row positions, and tilt, etc. are all configurable to achieve proper alignment. What I'm saying here, is that it's unlikely this code will work perfectly out of the box, and adjustements will need to be made regardless, based on your printer and resin.
 
 Underside modified with additional key-notches for Selectric-III.
 
